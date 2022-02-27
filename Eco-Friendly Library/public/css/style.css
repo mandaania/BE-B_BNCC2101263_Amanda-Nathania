@@ -1,0 +1,161 @@
+:root{
+    --green: #C4F8D4;
+    --black: #082B13;
+    --white: #f1fff5;
+    --dark-green: #0C6928;
+}
+
+/* NAVBAR */
+nav{
+    background: var(--green);
+    font-weight: bold;
+    position: fixed;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+/* BANNER */
+.banner{
+    background: var(--black);
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+.banner>h1{
+    color: white;
+    font-weight: bold;
+}
+.banner>p{
+    color: white;
+    font-size: 20px;
+}
+.book-list-btn{
+    background: var(--green);
+    font-weight: bold;
+    font-size: 17px;
+}
+.contact-us{
+    background: var(--white);
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/* BOOK CONTENT */
+.book-content{
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    background: var(--white);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-bottom: 20px;
+}
+.book-content:hover{
+    background: var(--black);
+    color: var(--white);
+    transition: 0.4s;
+}
+.book-content>*{
+    color: var(--black);
+}
+.book-content:hover>*{
+    color: var(--white);
+    transition: 0.4s;
+}
+.book-content>.judul{
+    font-size: 24px;
+}
+.book-content>.tahun_terbit{
+    background: var(--black);
+    color: var(--white);
+    margin-bottom: 10px;
+}
+.book-content:hover>.tahun_terbit{
+    background: var(--white);
+    color: var(--black);
+    margin-bottom: 10px;
+}
+.book-content>.penulis,.jumlah_halaman{
+    font-size: 15px;
+}
+
+/* BOOK LISTS */
+.book-lists-title{
+    color: var(--black);
+}
+
+/* MANAGE BOOKS */
+.manage{
+    color: var(--black);
+}
+.table-wrapper{
+    background: var(--white);
+    border-radius: 20px;
+    padding: 5px 40px 12px 40px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.add-book{
+    background: var(--black);
+    color: var(--white);
+    font-weight: bold;
+}
+.add-book:hover{
+    background: var(--green);
+    color: var(--black);
+    transition: 0.4s;
+}
+
+/* ADD BOOK */
+.submit-add-book{
+    background: var(--black);
+    color: var(--white);
+    font-weight: bold;
+}
+.submit-add-book:hover{
+    background: var(--green);
+    color: var(--black);
+    transition: 0.4s;
+}
+.add-alert{
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--black);
+    margin: 0px;
+}
+
+/* EDIT BOOK BUTTON */
+.edit-book-btn{
+    text-decoration: none;
+    background: var(--black);
+    color: var(--white);
+    font-size: 14px;
+}
+.edit-book-btn:hover{
+    background: var(--green);
+    color: var(--black);
+    transition: 0.4s;
+}
+.delete-book-btn{
+    text-decoration: none;
+    background: var(--black);
+    color: var(--white);
+    font-size: 14px;
+}
+.delete-book-btn:hover{
+    background: var(--green);
+    color: var(--black);
+    transition: 0.4s;
+}
+
+/* CONTACT US */
+.send-now-btn{
+    text-decoration: none;
+    background: var(--black);
+    color: var(--white);
+    font-size: 16px;
+}
+.send-now-btn:hover{
+    background: var(--green);
+    color: var(--black);
+    transition: 0.4s;
+}
